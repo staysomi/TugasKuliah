@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Belajar {
+public class TebakAngka {
 
     public static void main(String[] args) {
         int random, tebak, jumlah;
