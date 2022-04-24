@@ -21,7 +21,9 @@ public class CoepoeWord {
                 System.out.println("\nLevel " + level);
                 System.out.println("Letter : " + Function.showLetter(level));
 
-                ArrayList<String> correctWordList = new ArrayList<>(Arrays.asList(Function.showListCorrectWord(level)));
+                ArrayList<String> correctWordList = new ArrayList<>(
+                        Arrays.asList(Function.showListCorrectWord(level))
+                );
 
                 int nomor = 1;
                 do {
@@ -57,7 +59,10 @@ public class CoepoeWord {
                     nomor = nomor + 1;
                 } while (nomor <= 10);
 
-                System.out.println("\nList Correct Word : \n" + Arrays.toString(Function.showListCorrectWord(level)).replace("[", "").replace("]", "") + "\n");
+                System.out.println("\nList Correct Word : \n" +
+                        Arrays.toString(Function.showListCorrectWord(level))
+                                .replace("[", "")
+                                .replace("]", "") + "\n");
 
                 // score and level condition
                 if (score1 >= 70) {
