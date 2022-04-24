@@ -66,17 +66,20 @@ public class CoepoeWord {
 
                 // score and level condition
                 if (score1 >= 70) {
-                    System.out.println("You had answered 10 times with 7 right answers..");
+                    int pass = score1 / 10;
+                    System.out.println("You had answered 10 times with " + pass + " right answers..");
                     level = level + 1;
                     score = score1;
                     System.out.print("Current Score : " + score + "\n");
                 } else if (score2 >= 70) {
-                    System.out.println("You had answered 10 times with 7 right answers..");
+                    int pass = score2 / 10;
+                    System.out.println("You had answered 10 times with " + pass + " right answers..");
                     level = level + 1;
                     score = score + score2;
                     System.out.print("Current Score : " + score + "\n");
                 } else if (score3 >= 70) {
-                    System.out.println("You had answered 10 times with 7 right answers..");
+                    int pass = score3 / 10;
+                    System.out.println("You had answered 10 times with " + pass + " right answers..");
                     score = score + score3;
                     System.out.println("Overall Score : " + score + "\nYou Win!!");
                     retry = true;
