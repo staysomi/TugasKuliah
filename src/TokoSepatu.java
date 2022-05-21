@@ -210,13 +210,13 @@ public class TokoSepatu {
         String[] shoes_list = null;
 
         if (type == 1) {
-            shoes_list = new String[]{"Adidas", "Fila", "Nike", "New Balance"};
+            shoes_list = new String[]{"Adidas Rp200.000", "Fila Rp500.000", "Nike Rp400.000", "New Balance Rp300.000"};
         } else if (type == 2) {
-            shoes_list = new String[]{"Specs", "Diadora", "Lotto", "Ortuseight"};
+            shoes_list = new String[]{"Specs Rp500.000", "Diadora Rp200.000", "Lotto Rp400.000", "Ortuseight Rp400.000"};
         } else if (type == 3) {
-            shoes_list = new String[]{"Puma", "Adidas", "Nike", "Specs"};
+            shoes_list = new String[]{"Puma Rp300.000", "Adidas Rp500.000", "Nike Rp300.000", "Specs Rp200.000"};
         } else if (type == 4) {
-            shoes_list = new String[]{"Exodos", "Vans", "Converse", "Nike"};
+            shoes_list = new String[]{"Exodos Rp300.000", "Vans Rp200.000", "Converse Rp400.000", "Nike Rp500.000"};
         }
 
         return shoes_list;
